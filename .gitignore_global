@@ -1,2 +1,21 @@
+# General
 *~
+
+# OS X
 .DS_Store
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Gradle
+.gradle
+local.properties
+build
+
+# Java
+*.class
+*.war
+
+# Node.js
+node_modules

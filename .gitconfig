@@ -1,8 +1,10 @@
 [core]
-	excludesfile = /Users/andrzejsydor/.gitignore_global
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
+    editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -14,3 +16,44 @@
 	ci = commit
 	br = branch
 	co = checkout
+  ; showing metadata
+  list-aliases = !git config -l | grep alias | cut -c 7-
+
+  ; showing commits, logs & branches
+  my-commits = log --author='Piotr Wittchen'
+  last-commit-msg = log -1 --pretty=%B
+  log-with-branches = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  log-oneline = log --pretty=format:'%C(yellow)%h %ad%Cred%d %Creset %s %C(bold blue)[%cn]%Creset' --decorate --date=short
+  branches-by-last-modified = !git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'
+
+  ; ignoring files
+  ignore-local = update-index --assume-unchanged
+  unignore-local = update-index --no-assume-unchanged
+  ignored-local = !git ls-files -v | grep "^[[:lower:]]"
+
+  ; adding & reviewing changes
+  review-changes = add -p
+  add-all = add -A
+
+  ; resetting and reverting changes
+  reset-file = checkout HEAD --
+  discard-uncommited-changes = reset --hard
+  discard-unstaged-changes = checkout -- .
+  undo-last-commit = reset --hard HEAD^
+  ; side note: git reset <filename> makes undo after git add command
+
+  ; merging changes
+  merge-local-commits = !sh -c 'git reset --soft HEAD~$1' - ; merges n (arg) commits into one
+
+  ; branching
+  new-branch = checkout -b
+  delete-local-branch = branch -d
+  force-delete-local-branch = branch -D
+  delete-remote-branch = push origin --delete
+
+  ; showing diffs
+  diff-from-last-commit = diff --cached HEAD^
+  diff-staged = diff --staged ; shows diff after git add command
+
+  ; searching files
+  find-file= !git ls-files | grep -i
