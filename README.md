@@ -4,6 +4,8 @@
 
 1. [Generating a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
+2. install on Mac [iterm2](https://www.iterm2.com/index.html)
+
 ## Installation
 
 1. clone this repository with all plugins included
@@ -34,7 +36,6 @@
     ~/.vim/bin/install
     ```
 
-2. install [iterm2](https://www.iterm2.com/index.html)
 
 
 ### Tmux
