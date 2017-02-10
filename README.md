@@ -14,11 +14,6 @@
     mkdir -p ~/src/github/config
     git clone git@github.com:andrzejsydor/config.git ~/src/github/config
     cd ~/src/github; git submodule init; git submodule update
-    ```
-
-    ```shell
-    git clone git@github.com:andrzejsydor/config.git
-    cd config
     ./install.sh
     ```
 

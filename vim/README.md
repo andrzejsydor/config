@@ -1,8 +1,8 @@
 
 ## Go to start and end line
 
-  0 - go to start
-  Shift + $ - go to end
+    0 - go to start
+    Shift + $ - go to end
 
 ## Cut and paste
 
