@@ -1,12 +1,17 @@
 # config files for Linux and macOS
 
+## Requirements
+
+1. [Generating a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
 ## Installation
 
 1. clone this repository with all plugins included
 
     ```shell
-    git clone git@github.com:andrzejsydor/config.git ~/bin
-    cd ~/bin; git submodule init; git submodule update
+    mkdir -p ~/src/github
+    git clone git@github.com:andrzejsydor/config.git ~/src/github
+    cd ~/src/github; git submodule init; git submodule update
     ```
 
     ```shell
