@@ -1,8 +1,24 @@
 
+## All the right moves
+
+    h,l - left, right
+    j,k - down, up
+
+    gg - first line
+    G  - last line
+    nG - n'th line
+
 ## Go to start and end line
 
-    0 - go to start
-    Shift + $ - go to end
+    0 - beginning of line 
+    $ - end of line 
+
+## Page up,down
+
+    CTRL+F/B - page down/up
+## Back
+
+    u - back
 
 ## Delete word
 
@@ -16,4 +32,12 @@
     Press d to cut (or y to copy).
     Move to where you would like to paste.
     Press P to paste before the cursor, or p to paste after. 
+
+## Jump to matching bracket { } [ ] ( ) 
+
+    % - jump to matching bracket
+
+## Search
+
+    n,N - next, prev matching search pattern
 
