@@ -2,9 +2,9 @@
 
 ## Requirements
 
-1. [Generating a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+### [Generating a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
-2. [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+### [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
     [www.zsh.org](http://www.zsh.org/)
 
@@ -29,7 +29,29 @@
     echo $SHELL #expected result /bin/zsh
     ```
 
-3. Install on Mac [iterm2](https://www.iterm2.com/index.html)
+### Install on Mac [iterm2](https://www.iterm2.com/index.html)
+
+### Tmux
+
+All tmux specific config is stored in `~/tmux` directory.
+
+1. install tmux
+    ```shell
+    sudo apt-get install tmux
+    ```
+    ```shell
+    brew install tmux
+    ```
+2. in your create `~/.tmux.conf` file and add this line there:
+    ```shell
+    source ~/bin/tmux/.tmux.conf`
+    ```
+3. run tmux and install plugins:
+    ```shell
+    tmux
+    Ctrl+q, I (shift i)
+    ```
+
 
 ## Installation
 
@@ -57,25 +79,6 @@
     ```
 
 
-
-### Tmux
-
-All tmux specific config is stored in `~/tmux` directory.
-
-1. install tmux
-    ```shell
-    brew install tmux
-    sudo apt-get install tmux
-    ```
-2. in your create `~/.tmux.conf` file and add this line there:
-    ```shell
-    source ~/bin/tmux/.tmux.conf`
-    ```
-3. run tmux and install plugins:
-    ```shell
-    tmux
-    Ctrl+q, I (shift i)
-    ```
 
 ### ZSH (Recommended)
 
