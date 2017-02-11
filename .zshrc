@@ -151,7 +151,6 @@ if [ `uname` = "Darwin" ]; then
   alias setJdk7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
   alias setJdk8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
   alias setJdk9='export JAVA_HOME=$(/usr/libexec/java_home -v 1.9)'
-  alias setJdk8SAP='export JAVA_HOME=/Library/Java/JavaVirtualMachines/sapjvm_8/'
 
   # show existing java versions (JDKs)
   alias showJavaVersions='ls -l /Library/Java/JavaVirtualMachines'
@@ -178,9 +177,6 @@ if [ `uname` = "Darwin" ]; then
   export PATH=$ANDROID_HOME/platform-tools:$PATH
   alias runAndroidStudio="/Applications/Android\ Studio.app/Contents/MacOS/studio"
 
-  # go
-  export GOPATH=$HOME/Projects/other/go/workspace
-
   # m-cli Swiss Army Knife for Mac OS X (https://github.com/rgcr/m-cli)
   export PATH=/usr/local/m-cli:$PATH
 
@@ -206,12 +202,9 @@ alias resetTomcat="ps -ef | grep tomcat | awk '{print $2}' | xargs kill -9"
 alias showJavaProcesses="jps -lV"
 alias showMyExtIp="curl http://ipecho.net/plain; echo"
 alias prettyJson="python -m json.tool"
-alias showWeather="showWeatherIn Gliwice"
+alias showWeather="showWeatherIn Wroclaw"
 alias connectToLinuxPl="ssh -l wittchen -p 59184 wittchen.linuxpl.info"
 alias runHttpSever="python -m SimpleHTTPServer 8000"
-alias startMySqlServer="sudo /etc/init.d/mysql start"
-alias stopMySqlServer="sudo /etc/init.d/mysql stop"
-alias connectToMySqlServer="sudo mysql -u root -p"
 alias moo="cowsay"
 alias cowthink="cowsay"
 alias trim="awk '{gsub(/^ +| +$/,\"\")}1'"
