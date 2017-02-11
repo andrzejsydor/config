@@ -121,22 +121,6 @@ if [ `uname` = "Linux" ]; then
   # reference for script below: https://github.com/bwaldvogel/neighbourhood
   alias neighbourhood="sudo neighbourhood.py"
 
-  # spotify control
-
-  function spotifyDo() {
-    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify \
-    /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.$1
-  }
-
-  alias spotifyPlay='spotifyDo Play'
-  alias spotifyPause='spotifyDo Pause'
-  alias spotifyNext='spotifyDo Next'
-  alias spotifyPrevious='spotifyDo Previous'
-
-  # volume control
-  alias volumeUp='pactl set-sink-volume 0 +10%'
-  alias volumeDown='pactl set-sink-volume 0 -10%'
-
   # development directory
   export DEV=$HOME/Development
 
@@ -156,17 +140,6 @@ if [ `uname` = "Linux" ]; then
   export SCALA_HOME=/usr/share/scala
   export PATH=$SCALA_HOME/bin:$PATH
 
-  # go
-  export PATH=/usr/local/go/bin:$PATH
-  export GOPATH=$DEV/go/workspace
-  export GOBIN=$GOPATH/bin
-  export PATH=$GOBIN:$PATH
-
-  # swift
-  export PATH=$DEV/swift/swift/usr/bin:$PATH
-
-  # smalltalk
-  alias gnu-smalltalk="/usr/bin/gst"
 fi
 
 # setup for macOS used at work

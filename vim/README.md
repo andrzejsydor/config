@@ -4,6 +4,10 @@
     0 - go to start
     Shift + $ - go to end
 
+## Delete word
+
+    dw - delete word
+
 ## Cut and paste
 
     Position the cursor where you want to begin cutting.
