@@ -16,13 +16,15 @@
 ## Page up,down
 
     CTRL+F/B - page down/up
+
 ## Back
 
     u - back
 
-## Delete word
+## Delete
 
     dw - delete word
+    x/X - Delete [count] characters under and after/before the cursor.
 
 ## Cut and paste
 
