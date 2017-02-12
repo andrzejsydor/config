@@ -45,15 +45,6 @@ We strongly recommend to use ZSH shell with this config. To change your default 
     source $HOME/bin/.zshrc
     ```
 
-3. You may need to set gem paths to get rid of warning when starting terminal.
-
-    ```shell
-    export GEM_HOME="$HOME/.gem"
-    export GEM_PATH="$HOME/.gem"
-
-    ```
-
-
 ### BASH
 2. Add this line to your `~/.bash_profile` file
 
