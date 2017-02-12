@@ -86,6 +86,17 @@ source $ZSH/oh-my-zsh.sh
 # git setup aliases
 alias setupGitPersonal="git config --global user.email \"andrzej.sydor@gmail.com\""
 alias setupGitForWork="git config --global user.email \"andrzej.sydor@gmail.com\""
+alias ga='git add -p'
+alias gaa='git add -A'
+alias gc='git commit -m' #this allows me to use 'gc "Commit message"'
+alias gca='git commit --amend'
+alias gl='git pull -r'   #always pull and rebase actuall branch
+alias gm='git merge'
+alias go='git checkout'
+alias gp='git push'      #always push actual branch.
+alias gs='git status'
+alias gr='git rebase master' #I often rebase with master and almost never with other branches.
+alias gri='git rebase -i'
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then

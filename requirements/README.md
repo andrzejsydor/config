@@ -46,4 +46,7 @@ All tmux specific config is stored in `~/tmux` directory.
     `tmux
     Ctrl+q, I (shift i)`
 
+6. Install `sysstat` for `showCpuUsage`
+
+`sudo apt-get install systat'
 
