@@ -183,7 +183,7 @@ set linebreak               "Break lines when appropriate
 set autoindent              "Auto indent based on previous line
 
                             "Prepare tab/space indent settings
-set tabstop=4               "Set Tab width to 4
-set shiftwidth=4            "Indents will have width of 4
-set softtabstop=4           "Set the number of columns for tab
+set tabstop=2               "Set Tab width to 2 
+set shiftwidth=2            "Indents will have width of 2
+set softtabstop=2           "Set the number of columns for tab
 set expandtab               "Expand tabs to spaces
