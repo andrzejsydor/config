@@ -106,19 +106,6 @@ source $HOME/bin/project-specific/_wpl.sh
 This configuration allows me to simply use `wpls` to *immediately start* some server inside of my project with proper gemset set. I use separeate file
 for each project and keep them private.
 
-### 6. Tmux runtime script
-
-Ctrl+b c - create new window 
-Ctrl+b , - rename current window
-Ctrl+b n/p - next/previous window
-Ctrl+b w - list of windows
-Ctrl+b % - create new horizontal pane
-Ctrl+: <command> - :split-window vertical pane
-
-tmux new -s backupsession
-
-
-
 ### Tmux
 
 This script immediately opens terminal with two windows with 3 panels ond first one, runs vim, server, console, and prepare project-specific
