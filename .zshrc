@@ -135,6 +135,9 @@ if [ `uname` = "Linux" ]; then
   # development directory
   export DEV=$HOME/Development
 
+  # scripts
+  export PATH=~/dev/script/:$PATH
+  
   # java
   export JAVA_HOME=/usr/lib/jvm/java-8-oracle
   export PATH=$JAVA_HOME/bin:$PATH

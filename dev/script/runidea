@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nohup ~/dev/app/idea-IU-171.2613.7/bin/idea.sh $1 > /dev/null 2>&1&
+
