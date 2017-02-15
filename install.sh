@@ -9,7 +9,7 @@ cp -v .zshrc ~/
 mkdir -p ~/dev/script
 cp -v dev/script/* ~/dev/script/
 
-sudo cp -v scripts/htmux /usr/local/bin/
+#sudo cp -v scripts/htmux /usr/local/bin/
 
 sudo cp -v scripts/* /usr/local/bin/
 echo "config files installed successfully! \o/"
