@@ -6,7 +6,20 @@ Ctrl+b w - list of windows
 Ctrl+b % - create new horizontal pane
 Ctrl+: <command> - :split-window vertical pane
 
-tmux new -s backupsession
+Ctrl+x s - sessions
+tmux ls - sessions
+
+tmux new -s create-session-name 
+
+tmux a - attaching to an existing session
+tmux a -t session-name
+
+tmux detach - detaching from a session
+Ctrl-b d - detaching from a session
+
+tmux kill-session -t session-name - killing a session
+
+
 
 Ctrl+b ? - display a list of keyboard shortcuts
 
