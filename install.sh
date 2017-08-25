@@ -5,6 +5,7 @@ apt-get install zsh curl
 ./scripts/init/install_sdkman.sh
 ./scripts/init/install_jabba.sh
 ./scripts/init/install_ohmyzsh.sh
+./scripts/init/install_springboot.sh
 ./scripts/init/install_idea.sh
 
 jabba install 1.9.0-181
