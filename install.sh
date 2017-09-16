@@ -1,16 +1,28 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #apt-get install zsh curl
 
-./scripts/init/install_sdkman.sh
-./scripts/init/install_jabba.sh
-./scripts/init/install_maven.sh
-./scripts/init/install_gradle.sh
-./scripts/init/install_springboot.sh
+#./scripts/init/install_sdkman.sh
+curl -s "https://get.sdkman.io" | bash
+. ~/.sdkman/bin/sdkman-init.sh
+
+#./scripts/init/install_jabba.sh
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+jabba install 0.9.0-181
+
+#./scripts/init/install_maven.sh
+sdk install maven
+
+#./scripts/init/install_gradle.sh
+sdk install gradle
+
+#./scripts/init/install_springboot.sh
+sdk install springboot
+
 ./scripts/init/install_idea.sh
 ./scripts/init/install_ohmyzsh.sh
 
-jabba install 1.9.0-181
 
 set -e
 cp -v .gitconfig ~/
