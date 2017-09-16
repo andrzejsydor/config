@@ -7,7 +7,7 @@
 
     ```shell
     mkdir -p ~/src/github/config
-    git clone git@github.com:andrzejsydor/config.git ~/src/github/config
+    git clone https://github.com/andrzejsydor/config.git ~/src/github/config
     cd ~/src/github; git submodule init; git submodule update
     ./install.sh
     ```
