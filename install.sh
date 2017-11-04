@@ -16,8 +16,9 @@
 
 
 set -e
-cp -v .gitconfig ~/
-cp -v .gitignore_global ~/
+#copy_git_files.sh
+#cp -v .gitconfig ~/
+#cp -v .gitignore_global ~/
 cp -v .tmux.conf ~/
 cp -v .vimrc ~/
 cp -v .zshrc ~/

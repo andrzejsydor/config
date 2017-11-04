@@ -1,9 +1,6 @@
 # General
 *~
 
-# OS X
-.DS_Store
-
 # IntelliJ IDEA
 .idea
 *.iml
