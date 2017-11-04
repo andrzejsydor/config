@@ -1,7 +1,0 @@
-if [ -z "$1" ]; then
-	result=$(history)
-else
-	result=$(history|grep $1)
-fi
-
-echo "$result"

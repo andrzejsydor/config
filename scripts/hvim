@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-printf '%b\n' "$(cat ~/src/config/vim/README.md)"
-

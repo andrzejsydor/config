@@ -1,2 +1,0 @@
-#!/bin/bash
-nohup ~/dev/app/sublime_text_3/sublime_text  > /dev/null 2>&1&
