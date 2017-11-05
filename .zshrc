@@ -133,80 +133,29 @@ if [ `uname` = "Linux" ]; then
   alias neighbourhood="sudo neighbourhood.py"
 
   # development directory
-  export DEV=$HOME/Development
+  export DEV=$HOME/dev
 
   # scripts
   export PATH=~/dev/script/:$PATH
   
-  # java
-  export JAVA_HOME=/usr/lib/jvm/java-8-oracle
-  export PATH=$JAVA_HOME/bin:$PATH
-  alias switchJava="sudo update-alternatives --config java"
-  alias showJavaVersions="ls -l /usr/lib/jvm"
+  # java # comment because of SDKMAN
+  #export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+  #export PATH=$JAVA_HOME/bin:$PATH
+  #alias switchJava="sudo update-alternatives --config java"
+  #alias showJavaVersions="ls -l /usr/lib/jvm"
 
-  # android
-  export ANDROID_HOME=$DEV/android/android-sdk
-  export PATH=$PATH:$ANDROID_HOME/platform-tools
-  export PATH=$PATH:$ANDROID_HOME/tools
-  export PATH=$PATH:$ANDROID_HOME/tools/bin
-
-  # scala
-  export SCALA_HOME=/usr/share/scala
-  export PATH=$SCALA_HOME/bin:$PATH
+  # scala # comment because of SDKMAN
+  #export SCALA_HOME=/usr/share/scala
+  #export PATH=$SCALA_HOME/bin:$PATH
 
 fi
 
-# setup for macOS used at work
-if [ `uname` = "Darwin" ]; then
-
-  setupGitForWork  
-
-  # aliases for switching java version
-  alias setJdk7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
-  alias setJdk8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
-  alias setJdk9='export JAVA_HOME=$(/usr/libexec/java_home -v 1.9)'
-
-  # show existing java versions (JDKs)
-  alias showJavaVersions='ls -l /Library/Java/JavaVirtualMachines'
-
-  # set current java version and JAVA_HOME
-  export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
-  # go to directory with JVMs
-  alias goToJvmsDir='cd /Library/Java/JavaVirtualMachines'
-
-  # showing and hiding hidden files
-  function makeFilesVisible() {
-    defaults write com.apple.finder AppleShowAllFiles $1 && sudo killall Finder
-  }
-
-  alias showHiddenFiles="makeFilesVisible YES"
-  alias hideHiddenFiles="makeFilesVisible NO"
-
-  # android
-  export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk
-  export ANDROID_HOME=$HOME/Library/Android/sdk
-  export PATH=$ANDROID_HOME:$PATH
-  export PATH=$ANDROID_HOME/tools:$PATH
-  export PATH=$ANDROID_HOME/platform-tools:$PATH
-  alias runAndroidStudio="/Applications/Android\ Studio.app/Contents/MacOS/studio"
-
-  # m-cli Swiss Army Knife for Mac OS X (https://github.com/rgcr/m-cli)
-  export PATH=/usr/local/m-cli:$PATH
-
-  alias mc='mc -a -S modarin256-defbg' # midgnight commander colorized
-
-  # go to the home directory in the beginning
-  cd $HOME
-fi
-
-# aliases, which work both on Linux and macOS
 
 # js
-alias npm="sudo npm"
+#alias npm="sudo npm"
 
 # python
-alias pip="sudo pip"
+#alias pip="sudo pip"
 
 # general aliases
 
