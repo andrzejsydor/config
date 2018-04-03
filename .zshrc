@@ -101,6 +101,10 @@ alias gbc='git rev-parse --abbrev-ref HEAD'
 
 # Docker
 alias drmf='docker rm -f'
+alias dps='docker ps'
+alias dpsq='docker ps -q'
+alias dpsa='docker ps -a'
+alias dpsaq='docker ps -a -q'
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
