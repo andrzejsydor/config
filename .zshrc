@@ -97,6 +97,10 @@ alias gp='git push'      #always push actual branch.
 alias gs='git status'
 alias gr='git rebase master' #I often rebase with master and almost never with other branches.
 alias gri='git rebase -i'
+alias gbc='git rev-parse --abbrev-ref HEAD'
+
+# Docker
+alias drmf='docker rm -f'
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
