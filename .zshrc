@@ -83,6 +83,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# show aliases
+alias gal='grep -n git ~/.zshrc'
+
 # git setup aliases
 alias setupGitPersonal="git config --global user.email \"andrzej.sydor@gmail.com\""
 alias setupGitForWork="git config --global user.email \"andrzej.sydor@gmail.com\""
@@ -98,6 +101,7 @@ alias gs='git status'
 alias gr='git rebase master' #I often rebase with master and almost never with other branches.
 alias gri='git rebase -i'
 alias gbc='git rev-parse --abbrev-ref HEAD'
+alias gf='git fetch'
 
 # Docker
 alias drmf='docker rm -f'
