@@ -109,6 +109,7 @@ alias dps='docker ps'
 alias dpsq='docker ps -q'
 alias dpsa='docker ps -a'
 alias dpsaq='docker ps -a -q'
+alias dc='docker-compose '
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
