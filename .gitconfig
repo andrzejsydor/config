@@ -4,7 +4,7 @@
 	editor = vim
 [user]
 	name = Andrzej Sydor
-	email = andrzej.sydor@gmail.com
+	email = andrzejsydor@gmail.com
 [alias]
 	last = log -1 --stat
 	cp = cherry-pick
