@@ -1,5 +1,13 @@
 # config files for Linux and macOS
 
+## TIP: reload `.bashrc.
+
+[https://stackoverflow.com/questions/2518127/how-do-i-reload-bashrc-without-logging-out-and-back-in](https://stackoverflow.com/questions/2518127/how-do-i-reload-bashrc-without-logging-out-and-back-in)
+
+```sh
+source ~/.bashrc
+. ~/.bashrc
+```
 
 ## Installation
 
