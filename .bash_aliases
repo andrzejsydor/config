@@ -1,3 +1,8 @@
+# docker
+alias d='docker'
+
+# k8s
+alias k='kubectl'
 
 # git setup aliases
 alias setupGitPersonal="git config --global user.email \"andrzej.sydor@gmail.com\""
