@@ -15,7 +15,7 @@ source ~/.bashrc
 ## Update
 If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 ```sh
-omc update
+omz update
 ```
 ## Installation
 
