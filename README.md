@@ -9,6 +9,9 @@ source ~/.bashrc
 . ~/.bashrc
 ```
 
+## Plugins
+[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
+
 ## Installation
 
 1. clone this repository with all plugins included
