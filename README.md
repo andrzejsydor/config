@@ -76,7 +76,8 @@ If there is a git repository in current folder, it shows the current branch name
 
 ### 2. Git completion
 
-Based on http://gitweb.hawaga.org.uk/ . This script autocompletes git commands after pressing <TAB> key.
+TODO: need update
+This script autocompletes git commands after pressing <TAB> key.
 
 ### 3. Git aliases
 
