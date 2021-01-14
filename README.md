@@ -12,6 +12,11 @@ source ~/.bashrc
 ## Plugins
 [https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
 
+## Update
+If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+```sh
+omc update
+```
 ## Installation
 
 1. clone this repository with all plugins included
