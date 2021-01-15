@@ -12,6 +12,8 @@ source ~/.bashrc
 ## Plugins
 [https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
 
+[https://github.com/gradle/gradle-completion](https://github.com/gradle/gradle-completion)
+
 ## Update
 If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 ```sh
