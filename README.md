@@ -4,6 +4,17 @@
 
 [IDE Plugins](https://github.com/andrzejsydor/config#ide)
 
+
+# CLI tools
+
+[https://github.com/httpie/httpie](https://github.com/httpie/httpie)
+
+# IDE
+
+## VSCode
+
+[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
 # config files for Linux and macOS
 
 ## TIP: reload .bashrc.
@@ -15,20 +26,10 @@ source ~/.bashrc
 . ~/.bashrc
 ```
 
-## Plugins
+## ZSH Plugins
 [https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
 
 [https://github.com/gradle/gradle-completion](https://github.com/gradle/gradle-completion)
-
-# CLI tools
-
-[https://github.com/httpie/httpie](https://github.com/httpie/httpie)
-
-# IDE
-
-## VSCode
-
-[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Update
 If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
