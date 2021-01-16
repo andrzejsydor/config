@@ -1,3 +1,9 @@
+# Content
+
+[CLI Tools](https://github.com/andrzejsydor/config#cli-tools)
+
+[IDE Plugins](https://github.com/andrzejsydor/config#ide)
+
 # config files for Linux and macOS
 
 ## TIP: reload .bashrc.
@@ -14,9 +20,15 @@ source ~/.bashrc
 
 [https://github.com/gradle/gradle-completion](https://github.com/gradle/gradle-completion)
 
-## CLI tools
+# CLI tools
 
 [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
+
+# IDE
+
+## VSCode
+
+[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Update
 If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
