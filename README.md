@@ -14,11 +14,16 @@ source ~/.bashrc
 
 [https://github.com/gradle/gradle-completion](https://github.com/gradle/gradle-completion)
 
+## CLI tools
+
+[https://github.com/httpie/httpie](https://github.com/httpie/httpie)
+
 ## Update
 If you are using [om-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 ```sh
 omz update
 ```
+
 ## Installation
 
 1. clone this repository with all plugins included
