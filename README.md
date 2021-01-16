@@ -10,6 +10,8 @@
 
 # CLI tools
 
+[Homebrew](https://brew.sh/)
+
 [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
 
 # IDE
