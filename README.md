@@ -1,10 +1,10 @@
 # Content
 
-[CLI Tools](https://github.com/andrzejsydor/config#cli-tools)
+- [CLI Tools](https://github.com/andrzejsydor/config#cli-tools)
 
-[IDE Plugins](https://github.com/andrzejsydor/config#ide)
+- [IDE Plugins](https://github.com/andrzejsydor/config#ide)
 
-[DevOps](https://github.com/andrzejsydor/config#devops)
+- [DevOps](https://github.com/andrzejsydor/config#devops)
 
 # CLI tools
 
