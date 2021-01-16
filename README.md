@@ -10,8 +10,18 @@
 
 # CLI tools
 
+## Homebrew
+
 [Homebrew](https://brew.sh/)
 
+```
+brew update
+brew list
+brew search <package>
+brew install <package>
+```
+
+## HTTPie
 [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
 
 # IDE
