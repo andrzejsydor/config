@@ -6,6 +6,8 @@
 
 - [DevOps](https://github.com/andrzejsydor/config#devops)
 
+- [Links](https://github.com/andrzejsydor/config#links)
+
 # CLI tools
 
 [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
@@ -174,3 +176,8 @@ twpl(){
 }
 ```
 
+# Links
+
+[JavaMagazine](https://blogs.oracle.com/javamagazine)
+
+[https://github.com/s4kibs4mi/java-developer-roadmap](https://github.com/s4kibs4mi/java-developer-roadmap)
