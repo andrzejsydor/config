@@ -104,12 +104,15 @@ alias gbc='git rev-parse --abbrev-ref HEAD'
 alias gf='git fetch'
 
 # Docker
+alias d='docker'
 alias drmf='docker rm -f'
 alias dps='docker ps'
 alias dpsq='docker ps -q'
 alias dpsa='docker ps -a'
 alias dpsaq='docker ps -a -q'
 alias dc='docker-compose '
+
+alias k='kubectl'
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
