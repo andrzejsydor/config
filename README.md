@@ -4,6 +4,7 @@
 
 [IDE Plugins](https://github.com/andrzejsydor/config#ide)
 
+[DevOps](https://github.com/andrzejsydor/config#devops)
 
 # CLI tools
 
@@ -14,6 +15,14 @@
 ## VSCode
 
 [https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+# DevOps
+
+## Docker
+
+## Kubernetes
+
+[Lens](https://k8slens.dev/)
 
 # config files for Linux and macOS
 
