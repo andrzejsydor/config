@@ -112,7 +112,9 @@ alias dpsa='docker ps -a'
 alias dpsaq='docker ps -a -q'
 alias dc='docker-compose '
 
+# Kubernetes
 alias k='kubectl'
+alias ka=“kubectl apply -f"
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
