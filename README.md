@@ -30,9 +30,6 @@ brew install <package>
 
 [https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
-## IntelliJ
-
-[CodeGlance](https://github.com/vektah/CodeGlance)
 
 # DevOps
 
