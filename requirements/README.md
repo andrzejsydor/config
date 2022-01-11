@@ -33,7 +33,7 @@
 
     ```sudo apt-get install terminator guake```
 
-5. Tmux
+5. Tmux (old)
 
 All tmux specific config is stored in `~/tmux` directory.
 
@@ -48,5 +48,6 @@ All tmux specific config is stored in `~/tmux` directory.
 
 6. Install `sysstat` for `showCpuUsage`
 
-`sudo apt-get install systat'
-
+```
+sudo apt-get install systat
+```
