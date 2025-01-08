@@ -120,7 +120,6 @@ We strongly recommend to use ZSH shell with this config. To change your default 
 4. Git rewrite author
 5. Project specific script structurization
 6. Shell color schemes
-7. TMUX runtime script
 
 ### 1. Git branch color
 
@@ -166,27 +165,5 @@ source $HOME/bin/project-specific/_wpl.sh
 
 This configuration allows me to simply use `wpls` to *immediately start* some server inside of my project with proper gemset set. I use separeate file
 for each project and keep them private.
-
-### Tmux
-
-This script immediately opens terminal with two windows with 3 panels ond first one, runs vim, server, console, and prepare project-specific
-environment.
-
-To use it, just setup those environment variables. I place them inside of my project-specific files in `twpl` command. After configuring environment
-in this way, typing `twpl` in your terminal will do everything you need - just start coding.
-
-```shell
-FILE project-specific/_wpl.sh
-
-#HERE you can provide scripts to setup your project environment
-#
-
-#run tmux environment auto setup
-twpl(){
-  export session=sydor
-  export window1=${session}:shell
-  export window2=${session}:vim
-}
-```
 
 # Links

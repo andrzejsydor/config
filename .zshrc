@@ -118,8 +118,6 @@ alias ka=“kubectl apply -f"
 
 # setup for Ubuntu Linux used at home
 if [ `uname` = "Linux" ]; then
-  # right now, I'm using tmux only on Linux
-  [[ $TERM != "screen" ]] && exec tmux
 
   alias resetGnomePanel="sudo killall gnome-panel"
   alias resetNautilus="sudo killall nautilus && nautilus"
@@ -177,7 +175,6 @@ fi
 
 # general aliases
 
-alias reloadTmuxConf="tmux source-file ~/.tmux.conf"
 alias reloadShell="source ~/.zshrc"
 alias resetTomcat="ps -ef | grep tomcat | awk '{print $2}' | xargs kill -9"
 alias showJavaProcesses="jps -lV"

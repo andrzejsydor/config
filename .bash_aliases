@@ -46,7 +46,6 @@ alias countFreeRam="grep MemFree /proc/meminfo"
 alias countTotalSwap="grep SwapTotal /proc/meminfo"
 
 # general aliases
-alias reloadTmuxConf="tmux source-file ~/.tmux.conf"
 alias reloadShell="source ~/.zshrc"
 alias resetTomcat="ps -ef | grep tomcat | awk '{print $2}' | xargs kill -9"
 alias showJavaProcesses="jps -lV"

@@ -33,20 +33,7 @@
 
     ```sudo apt-get install terminator guake```
 
-5. Tmux (old)
-
-All tmux specific config is stored in `~/tmux` directory.
-
- - install tmux
-    `sudo apt-get install tmux`
-    `brew install tmux`
- - in your create `~/.tmux.conf` file and add this line there:
-    `source ~/bin/tmux/.tmux.conf`
- - run tmux and install plugins:
-    `tmux
-    Ctrl+q, I (shift i)`
-
-6. Install `sysstat` for `showCpuUsage`
+5. Install `sysstat` for `showCpuUsage`
 
 ```
 sudo apt-get install systat

@@ -19,14 +19,12 @@ set -e
 #copy_git_files.sh
 #cp -v .gitconfig ~/
 #cp -v .gitignore_global ~/
-cp -v .tmux.conf ~/
 cp -v .vimrc ~/
 cp -v .zshrc ~/
 
 # thisis new repo scripts
 #mkdir -p ~/dev/script
 #cp -v dev/script/* ~/dev/script/
-#sudo cp -v scripts/htmux /usr/local/bin/
 #sudo cp -v scripts/* /usr/local/bin/
 echo "config files installed successfully! \o/"
 
