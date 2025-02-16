@@ -1,8 +1,11 @@
 # Requirements
 
+## MacOS & others
+
 1. [Generating a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 2. [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+- currently default in MacOS 
 
     [www.zsh.org](http://www.zsh.org/)
 
@@ -27,7 +30,11 @@
     echo $SHELL #expected result /bin/zsh
     ```
 
-3. Install on Mac [iterm2](https://www.iterm2.com/index.html)
+4. Install on Mac [iterm2](https://www.iterm2.com/index.html)
+
+or [Warp - The intelligent terminal](https://www.warp.dev/)
+
+## Linux
 
 4. Install Terminator/Guake on Linux
 
