@@ -37,7 +37,7 @@ brew install <package>
 
 ## Kubernetes
 
-[Lens](https://k8slens.dev/)
+[Lens](https://k8slens.dev/) - PAID
 
 # config files for Linux and macOS
 
